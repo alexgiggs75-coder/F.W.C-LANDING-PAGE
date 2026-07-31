@@ -13,8 +13,8 @@ const UPCOMING_EVENTS = [
       "Join us as we honor and celebrate the confirmation of ordination of our beloved founder, Rev. Macharia. A moment of thanksgiving, worship, and prayer as we witness God's faithfulness over his ministry.",
     image: "https://i.imgur.com/ZRFzyZx.jpeg",
     highlight: true,
-    date: "2026-08-22T09:00:00+03:00",
-    dateLabel: "Saturday, 22nd August 2026",
+    date: "2026-09-05T09:00:00+03:00",
+    dateLabel: "Saturday, 5th September 2026",
   },
 ];
 
