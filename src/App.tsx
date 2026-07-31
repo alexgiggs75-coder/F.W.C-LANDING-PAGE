@@ -740,7 +740,7 @@ export default function App() {
                 We are located at Nairutia Shopping Center, opposite Nairutia Polytechnic in Nyeri, Kenya. Come worship with us!
               </p>
               <a
-                href="https://maps.app.goo.gl/b91rzGC2bLeLv2yd7""
+                href="https://maps.app.goo.gl/b91rzGC2bLeLv2yd7"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 self-start rounded-full bg-gradient-to-r from-red-600 to-red-500 px-6 py-3 text-sm font-semibold text-white hover:from-red-500 hover:to-red-400 transition-all shadow-lg shadow-red-600/25"
