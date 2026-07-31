@@ -753,7 +753,7 @@ export default function App() {
             <div className="relative overflow-hidden rounded-3xl border border-white/10 shadow-2xl shadow-black/30 min-h-[340px] lg:min-h-0">
               <iframe
                 title="FWC Nairutia Location Map"
-                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d31918.480453532145!2d36.696013425683496!3d-0.11661304755783865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sfamily%20worship%20center%20nairutia!5e0!3m2!1sen!2ske!4v1785332062271!5m2!1sen!2ske"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d127673.7702916908!2d36.5699161!3d-0.1462553!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182831001a2feb2b%3A0x4cf843399d90ddc8!2sFamily%20Worship%20Church!5e0!3m2!1sen!2ske!4v1785489407953!5m2!1sen!2ske"
                 className="absolute inset-0 h-full w-full"
                 style={{ border: 0, filter: "invert(90%) hue-rotate(180deg)" }}
                 allowFullScreen
