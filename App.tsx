@@ -740,7 +740,7 @@ export default function App() {
                 We are located at Nairutia Shopping Center, opposite Nairutia Polytechnic in Nyeri, Kenya. Come worship with us!
               </p>
               <a
-                href="https://www.google.com/maps/dir/?api=1&destination=-0.14617351197786727,36.71281798769412"
+                href="https://maps.app.goo.gl/6zdNhNvLr61trKzQ7"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 self-start rounded-full bg-gradient-to-r from-red-600 to-red-500 px-6 py-3 text-sm font-semibold text-white hover:from-red-500 hover:to-red-400 transition-all shadow-lg shadow-red-600/25"
@@ -753,7 +753,7 @@ export default function App() {
             <div className="relative overflow-hidden rounded-3xl border border-white/10 shadow-2xl shadow-black/30 min-h-[340px] lg:min-h-0">
               <iframe
                 title="FWC Nairutia Location Map"
-                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d15959.231276812632!2d36.70443984358689!3d-0.13145569011377234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sfamily%20worship%20center%20nairutia!5e0!3m2!1sen!2ske!4v1785321623198!5m2!1sen!2ske"
+                src="https://google.com"
                 className="absolute inset-0 h-full w-full"
                 style={{ border: 0, filter: "invert(90%) hue-rotate(180deg)" }}
                 allowFullScreen
@@ -765,6 +765,7 @@ export default function App() {
                 <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-red-500/20">
                   <MapPin className="text-red-400" size={18} />
                 </div>
+
                 <div className="leading-tight">
                   <p className="text-sm font-bold text-white">Family Worship Center Nairutia</p>
                   <p className="text-[11px] text-white/50">Nairutia Shopping Center · Nyeri</p>
