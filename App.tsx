@@ -269,8 +269,7 @@ export default function App() {
         </div>
       </section>
 
-     {false && (
-      <section className="py-24 md:py-32 px-6 md:px-14 bg-[#0d1321] relative overflow-hidden">
+   <section className="hidden py-24 md:py-32 px-6 md:px-14 bg-[#0d1321] relative overflow-hidden">
         <div className="absolute top-1/2 left-0 -translate-y-1/2 w-[500px] h-[500px] bg-red-600/10 rounded-full blur-[140px]" />
         <div className="absolute top-1/2 right-0 -translate-y-1/2 w-[500px] h-[500px] bg-purple-600/10 rounded-full blur-[140px]" />
         
@@ -362,7 +361,6 @@ export default function App() {
           </div>
         </div>
       </section>
-      )}
 
       {/* Our Branches */}
       <section className="py-24 md:py-32 px-6 md:px-14 bg-[#0a0f1c] relative overflow-hidden">
