@@ -5,18 +5,7 @@ const CHURCH_LOGO = "https://i.imgur.com/4i3YiDX.jpeg";
 
 const THEME_2026 = "https://i.imgur.com/MYRGq3r.jpeg";
 
-const UPCOMING_EVENTS = [
-  {
-    title: "Rev. Macharia's Confirmation of Ordination Ceremony",
-    tag: "Special Ceremony",
-    description:
-      "Join us as we honor and celebrate the confirmation of ordination of our beloved founder, Rev. Macharia. A moment of thanksgiving, worship, and prayer as we witness God's faithfulness over his ministry.",
-    image: "https://i.imgur.com/ZRFzyZx.jpeg",
-    highlight: true,
-    date: "2026-09-05T09:00:00+03:00",
-    dateLabel: "Saturday, 5th September 2026",
-  },
-];
+const UPCOMING_EVENTS = [];
 
 function getTimeRemaining(target: string) {
   const total = new Date(target).getTime() - Date.now();
