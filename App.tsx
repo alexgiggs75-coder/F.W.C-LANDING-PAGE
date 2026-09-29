@@ -5,18 +5,17 @@ const CHURCH_LOGO = "https://i.imgur.com/4i3YiDX.jpeg";
 
 const THEME_2026 = "https://i.imgur.com/MYRGq3r.jpeg";
 
-const UPCOMING_EVENTS = [];
-
-function getTimeRemaining(target: string) {
-  const total = new Date(target).getTime() - Date.now();
-  if (total <= 0) return null;
-  return {
-    days: Math.floor(total / (1000 * 60 * 60 * 24)),
-    hours: Math.floor((total / (1000 * 60 * 60)) % 24),
-    minutes: Math.floor((total / (1000 * 60)) % 60),
-    seconds: Math.floor((total / 1000) % 60),
-  };
-}
+const UPCOMING_EVENTS = [
+  {
+    title: "Hidden Placeholder",
+    tag: "Future",
+    description: "Temporary data layer holding code structures.",
+    image: "https://imgur.com",
+    highlight: false,
+    date: "2030-12-31T09:00:00+03:00",
+    dateLabel: "Tuesday, 31st December 2030",
+  }
+];
 
 function Countdown({ target }: { target: string }) {
   const [timeLeft, setTimeLeft] = useState(() => getTimeRemaining(target));
@@ -270,7 +269,7 @@ export default function App() {
         </div>
       </section>
 
-      {UPCOMING_EVENTS.length > 0 && (
+     {false && (
       <section className="py-24 md:py-32 px-6 md:px-14 bg-[#0d1321] relative overflow-hidden">
         <div className="absolute top-1/2 left-0 -translate-y-1/2 w-[500px] h-[500px] bg-red-600/10 rounded-full blur-[140px]" />
         <div className="absolute top-1/2 right-0 -translate-y-1/2 w-[500px] h-[500px] bg-purple-600/10 rounded-full blur-[140px]" />
